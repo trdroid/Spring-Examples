@@ -13,13 +13,12 @@ Dependency injection in Spring container is performed using any of the following
 * Setter Injection
 * Constructor Injection
 
-If an IoC container supports both these methods of Dependency Injection, then any combination of these methods can be used. 
+If an IoC container supports both these methods of Dependency Injection, then any combination of these methods can be used.
 
 **Benefits of Dependency Injection**
 
 * **Externalization**: The lookup logic is externalized from the application code
-* **Decoupling from dependencies**: The target components are decoupled from their dependencies and are not even aware of their locations or classes, which implies that the unit testing of such target components becomes easy, as 
+* **Decoupling from dependencies**: The target components are decoupled from their dependencies and are not even aware of their locations or classes. This makes the unit testing of such target components easy, because
     * the dependent components can be easily mocked and injected to the target component in its test cases
     * there is no environmental dependency like the JNDI context
-* **Easy porting across environments**: 
-
+* **Easy porting across environments**: As components do not have any concrete class dependencies, it is possible to configure an application for different environments by just changing the configuration without having to do any code modifications.
