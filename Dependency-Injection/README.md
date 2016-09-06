@@ -2,7 +2,7 @@
 
 If the objects in an application depend on collaborators or resources, the goal is to externalize the responsibilities of creating the collabtorator objects and looking up for resources from the application code to an IoC container. The application code should delegate the responsibilities of collaborator-objects creation and resource lookups to an IoC container.
 
-Dependency Injection involves moving the responsibility of creating the dependent components out of the code to allow an **IoC container** to manage this process. 
+Dependency Injection involves moving the responsibility of creating the dependent components out of the code to allow an **IoC container** to manage this process and to inject the dependencies (i.e. dependent components) to the target components when needed.
 
 The IoC container is responsible for handling the collaborator-object creation and resource lookup process and offering dependency injection service to the application code.
 
