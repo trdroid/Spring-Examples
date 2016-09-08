@@ -17,6 +17,8 @@ The IoC container has to be provided with
 * Application Classes
 * Configuration Metadata
 
+![](_misc/IoC%20Container%20inputs.png)
+
 ### Configuration Metadata
 
 Configuration metadata can be 
@@ -27,5 +29,12 @@ Configuration metadata can be
 
 The configuration metadata for an application can be provided in any one or any combination of the formats specified above.
 
+### Using the Spring container
+
+The Spring container is essentially a Java object which can be instantiated using 
+
+* the programmatic approach (or)
+* the declarative approach
+ 
 
 
